@@ -1,0 +1,47 @@
+.HeaderBox {
+  @apply my-0 
+  mx-auto
+  py-8
+  flex
+  justify-between
+  items-center;
+}
+
+.LogoBox {
+  @apply flex
+  items-center
+  gap-2;
+}
+
+.NavBox {
+  @apply flex
+  items-center
+  gap-10;
+}
+
+.NavItemsBox {
+  @apply hidden;
+}
+
+.IconsItemsBox {
+  @apply flex
+  items-center
+  gap-4;
+}
+
+@media screen and (min-width: 1024px) {
+  .HeaderBox {
+    @apply px-0
+    my-0
+    mx-auto
+    max-w-5xl;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .NavItemsBox {
+    @apply flex
+    items-center
+    gap-10;
+  }
+}

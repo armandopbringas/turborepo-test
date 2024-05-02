@@ -1,0 +1,84 @@
+.HealthyMindStrategyBox {
+  @apply mt-24 mb-32;
+}
+
+@media screen and (min-width: 1024px) {
+  .HealthyMindStrategyBox {
+    @apply mx-auto
+    max-w-5xl;
+  }
+
+  .ListBox {
+    @apply w-[36%];
+  }
+
+  .StrategyListBox {
+    @apply flex
+    gap-14;
+  }
+
+  .ImageBox {
+    @apply w-[64%];
+  }
+}
+
+.ImageBox {
+  @apply h-min
+  border-l-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black;
+}
+
+.img {
+  @apply flex
+  justify-center
+  items-center
+  h-[458px]
+  w-full
+  bg-[url('https://s3-alpha-sig.figma.com/img/c971/b71b/9643e20388885bfa5eac64c208ee3667?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZjlmPXHE1fnjm4QGtozkw2YsmuzMvoXd7P0Qntf7XhBn0RdA2MvlUSm4klQ534eHLphkMVV6sBbF1sW7wl5qAPdUA3Jcuh92K6e5QQik~CR6XaCoj1JroZGVIKSSORyZheHRIvJIvGpx~jnLXVPXk~NxKh5qFmKZZnJRPjf9f~kkg5-wOFw3A66krTDPP9GXkSyInqMVpD8cbuLpwBzm6j5c-rS3XYbtHnZ3yGO6Z9-cqE4QIHjG8ndV0YLOcfOvEGf1129nCpnPJWJGND9ecuyAnrASd0dl27c7CEa8R6buC5wvmhv4BqrHuI8QEq0YYOdsnTIumn5xh98VTLjhxg__')]
+  bg-no-repeat
+  bg-center
+  bg-cover
+  rounded-3xl;
+}
+
+.TitleBox {
+  @apply py-4;
+}
+
+.Title {
+  @apply font-medium
+  text-[32px];
+}
+
+.SubTitle {
+  @apply text-[20px]
+  text-[#7D7D7D];
+}
+
+.StrategyBox {
+  @apply flex
+  gap-4
+  mb-8;
+}
+
+.StrategySubtitle {
+  @apply font-medium
+  text-lg;
+}
+
+.StrategyText {
+  @apply text-[#7D7D7D];
+}
+
+.ImageBorderBox {
+  @apply border-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black;
+}

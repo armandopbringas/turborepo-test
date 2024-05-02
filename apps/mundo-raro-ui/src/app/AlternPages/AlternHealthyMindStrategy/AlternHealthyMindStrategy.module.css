@@ -1,0 +1,148 @@
+.AlternHealthyMindStrategyBox {
+  @apply mt-24 mb-32;
+}
+
+.TitleBox {
+  @apply pt-4
+  pb-9
+  max-w-[419px];
+}
+
+.Title {
+  @apply font-medium
+  text-[32px];
+}
+
+.SubTitle {
+  @apply text-[20px]
+  text-[#7D7D7D];
+}
+
+.ListBox {
+  @apply mb-9;
+}
+
+.StrategyBox {
+  @apply flex
+  gap-4
+  mb-8
+  min-w-80;
+}
+
+.StrategySubtitle {
+  @apply font-medium
+  text-lg;
+}
+
+.StrategyText {
+  @apply text-[#7D7D7D];
+}
+
+.ImageBoxRight {
+  @apply relative
+  w-fit
+  h-min
+  border-l-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black
+  rotate-[4.08deg];
+}
+
+.ImgRight {
+  @apply flex
+  justify-center
+  items-center
+  h-[339.97px]
+  w-[504.02px]
+  bg-image-one
+  bg-no-repeat
+  bg-center
+  bg-cover
+  rounded-3xl;
+}
+
+.OrangeShadowRight {
+  @apply h-[339.97px]
+  w-[504.02px]
+  -z-10
+  rounded-[18px]
+  absolute
+  -top-5
+  -left-5
+  bg-[#ff8c4f];
+}
+
+.ImageBoxLeft {
+  @apply relative
+  w-fit
+  h-min
+  border-l-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black
+  mb-10
+  bg-img-three
+  rotate-[-2deg];
+}
+
+.ImgLeft {
+  @apply flex
+  justify-center
+  items-center
+  h-[339.97px]
+  w-[504.02px]
+  bg-img-three
+  bg-no-repeat
+  bg-center
+  bg-cover
+  rounded-3xl;
+}
+
+.OrangeShadowLeft {
+  @apply h-[339.97px]
+  w-[504.02px]
+  -z-10
+  rounded-[18px]
+  absolute
+  -top-5
+  -left-5
+  bg-[#ff8c4f];
+}
+
+.ImagesBox {
+  @apply flex
+  flex-col
+  gap-16
+  mt-16
+  items-center;
+}
+
+@media screen and (min-width: 1024px) {
+  .AlternHealthyMindStrategyBox {
+    @apply mx-auto
+    max-w-5xl;
+  }
+
+  .ListBox {
+    @apply flex
+    gap-8;
+  }
+
+  .StrategyListBox {
+    @apply flex
+    gap-14;
+  }
+
+  .ImagesBox {
+    @apply flex-row;
+  }
+
+  .ImageBoxLeft {
+    @apply mb-0;
+  }
+}

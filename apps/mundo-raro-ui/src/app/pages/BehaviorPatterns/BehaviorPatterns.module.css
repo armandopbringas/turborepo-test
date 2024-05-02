@@ -1,0 +1,63 @@
+.BehaviorPatternsBox {
+  @apply flex
+  items-center
+  flex-col
+  gap-8
+  px-16
+  mt-32
+  mb-44;
+}
+
+.ImgsBox {
+  @apply flex
+  flex-col
+  gap-6;
+}
+
+.TextBox {
+  @apply max-w-[362px];
+}
+
+.TitleSTyles {
+  @apply font-medium
+  text-[32px]
+  leading-10
+  mb-2;
+}
+
+.ParagraphStyles {
+  @apply font-normal
+  text-xl
+  text-[#7D7D7D]
+  max-w-[396px]
+  mb-7;
+}
+
+@media screen and (min-width: 768px) {
+  .ImgsBox {
+    @apply flex flex-row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .BehaviorPatternsBox {
+    @apply flex-row
+    gap-[74px]
+    pl-[89px]
+    pr-12;
+  }
+
+  .ImgsBox {
+    @apply order-1;
+  }
+
+  .TextBox {
+    @apply order-2;
+  }
+}
+
+@media screen and (min-width: 1560px) {
+  .BehaviorPatternsBox {
+    @apply justify-center;
+  }
+}

@@ -1,0 +1,57 @@
+.AccessibleHealthyMindBox {
+  @apply relative
+  z-0
+  my-32;
+}
+
+@media screen and (min-width: 1024px) {
+  .AccessibleHealthyMindBox {
+    @apply mx-auto
+    max-w-5xl;
+  }
+}
+
+.RowBox {
+  @apply w-[85%]
+  -rotate-[2.68deg]
+  pl-[77px]
+  pt-24
+  h-[650px]
+  flex-row
+  bg-no-repeat
+  bg-[url('../../../public/images/backgrounds/polygon-bg.svg')];
+}
+
+.ColBox {
+  @apply z-50
+  flex
+  flex-col
+  w-[485px]
+  max-w-full;
+}
+
+.AccessibleHealthyMindTitle {
+  @apply mb-[6px]
+  font-medium
+  text-[32px];
+}
+
+.ItemBox {
+  @apply mb-4
+  py-4
+  px-6
+  border-2
+  max-w-[501px]
+  bg-white
+  border-black
+  rounded-2xl;
+}
+
+.ItemTitle {
+  @apply mb-3
+  font-medium;
+}
+
+.ItemSubtitle {
+  @apply mb-4;
+}

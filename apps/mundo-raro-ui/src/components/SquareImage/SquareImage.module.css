@@ -1,0 +1,11 @@
+.SquareImageBox {
+  @apply border-l-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black
+  h-[434px]
+  w-[319px]
+  bg-cover bg-center;
+}

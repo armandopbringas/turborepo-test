@@ -1,0 +1,12 @@
+.CtaBtn {
+  @apply h-12
+  py-3
+  px-5
+  border-black
+  gap-[10px]
+  rounded-[999px]
+  border-2
+  bg-[#FFA575]
+  w-fit
+  font-medium;
+}

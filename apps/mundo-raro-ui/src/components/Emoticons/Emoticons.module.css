@@ -1,0 +1,10 @@
+.EmoticonsStyles {
+  @apply h-[52px] 
+  w-[52px]
+  rounded-full 
+  inline-block 
+  text-xl
+  text-center 
+  bg-blue-100
+  leading-[52px];
+}

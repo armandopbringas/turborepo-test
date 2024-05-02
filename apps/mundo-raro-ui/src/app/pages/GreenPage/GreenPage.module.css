@@ -1,0 +1,32 @@
+.GreenPageBg {
+  @apply py-24
+  px-8
+  my-36
+  rounded-[40px]
+  border-[3px]
+  border-[#000000]
+  bg-[#B0DD79];
+}
+
+.GreenBoxTitle {
+  @apply mb-12
+  mx-auto
+  max-w-[579px]
+  text-center
+  font-normal
+  text-3xl;
+}
+
+@media screen and (min-width: 768px) {
+  .GreenPageBg {
+    @apply py-24
+    px-36;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .GreenPageBox {
+    @apply flex
+    gap-7;
+  }
+}

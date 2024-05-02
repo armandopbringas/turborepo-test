@@ -1,0 +1,100 @@
+.GirlOnField {
+  @apply relative
+  my-24
+  z-0
+  items-center
+  w-96
+  h-[523px]
+  border-l-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black
+  bg-img-two
+  bg-cover;
+}
+
+.GirlOnFieldBox {
+  @apply absolute
+  top-48
+  -right-40
+  z-0
+  items-center
+  w-96
+  h-[523px]
+  border-l-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black
+  bg-img-two
+  bg-cover
+  rotate-3;
+}
+
+.GirlOnFieldMobileBox {
+  @apply relative
+  my-0
+  mx-auto
+  z-0
+  max-w-96
+  h-[523px]
+  border-l-[3px]
+  border-t-2
+  border-b-2
+  border-r-[5px]
+  rounded-3xl
+  border-black
+  bg-img-two
+  bg-cover;
+}
+
+.DropOne {
+  @apply absolute
+  -top-11
+  -right-5
+  w-8
+  h-8;
+}
+
+.DropTwo {
+  @apply rotate-45
+  absolute
+  -top-6
+  -right-[42.5px]
+  w-8
+  h-8;
+}
+
+.DropThree {
+  @apply rotate-90
+  absolute
+  top-1
+  -right-12
+  w-8
+  h-8;
+}
+
+.CtaBtnBox {
+  @apply relative;
+}
+
+.CtaBtnItemBox {
+  @apply absolute
+  top-[400px]
+  -right-[75px];
+}
+
+.CtaBtnItem {
+  @apply absolute
+  top-[400px]
+  -right-[75px];
+}
+
+.CtaBtnItemMobile {
+  @apply absolute
+  top-[100px]
+  -right-[75px];
+}

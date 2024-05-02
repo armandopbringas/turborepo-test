@@ -1,0 +1,15 @@
+.ItemBox {
+  @apply mb-4
+  py-4
+  px-6
+  border-2
+  max-w-[501px]
+  bg-white
+  border-black
+  rounded-2xl;
+}
+
+.ItemTitle {
+  @apply mb-3
+  font-medium;
+}

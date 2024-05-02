@@ -1,0 +1,61 @@
+.LandscapeImageBox {
+  @apply h-[360px]
+  mb-8
+  w-full 
+  mx-auto
+  rounded-[40px]
+  border-[3px]
+  border-[#000000];
+}
+
+.LandscapeImage {
+  @apply relative
+  mb-8
+  w-full
+  h-full
+  p-12
+  bg-cover 
+  bg-center
+  flex
+  flex-col
+  justify-end
+  rounded-[35px];
+}
+
+.LandscapeImage::before {
+  @apply rounded-[35px]
+  content-['']
+  absolute
+  top-0
+  left-0
+  w-full
+  h-full
+  z-0
+  bg-black-gradient;
+}
+
+.ReadinTextBox {
+  @apply flex
+  gap-2 
+  items-center 
+  w-full 
+  mb-3;
+}
+
+.ReadinTimeStyle {
+  @apply text-white
+  text-base;
+}
+
+.ReadingTitle {
+  @apply z-50
+  font-normal
+  text-[32px]
+  text-white;
+}
+
+@media screen and (min-width: 1024px) {
+  .LandscapeImageBox {
+    @apply mb-0;
+  }
+}
