@@ -9,7 +9,7 @@ Run the following command:
 ```sh
 npx create-turbo@latest
 ```
-Some changes
+more changes
 
 ## What's inside?
 
